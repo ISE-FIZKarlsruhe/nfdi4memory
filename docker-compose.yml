@@ -10,5 +10,3 @@ services:
       - MOUNT=/4memory/
       - FTS_FILEPATH=/data/fts
       - SITE_URI=https://nfdi.fiz-karlsruhe.de/
-    volumes:
-      - ./data:/data
