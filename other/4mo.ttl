@@ -1,0 +1,1092 @@
+@prefix memo: <https://nfdi.fiz-karlsruhe.de/4memory/ontology/> .
+@prefix nfdicore: <https://nfdi.fiz-karlsruhe.de/ontology/#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+memo:E1000 a nfdicore:Standard ;
+    rdfs:label "Schema"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q3475322"^^xsd:anyURI .
+
+memo:E1001 a nfdicore:Standard ;
+    rdfs:label "EAD"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1340077"^^xsd:anyURI .
+
+memo:E1002 a nfdicore:Standard ;
+    rdfs:label "EAC"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q390394"^^xsd:anyURI .
+
+memo:E1003 a nfdicore:Standard ;
+    rdfs:label "RiC"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q30216914"^^xsd:anyURI .
+
+memo:E1004 a nfdicore:Standard ;
+    rdfs:label "SKOS"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2288360"^^xsd:anyURI .
+
+memo:E1005 a nfdicore:Standard ;
+    rdfs:label "WMS"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q974922"^^xsd:anyURI .
+
+memo:E1006 a nfdicore:Standard ;
+    rdfs:label "TMS"^^xsd:string ;
+    owl:sameAs "?"^^xsd:string .
+
+memo:E1007 a nfdicore:Standard ;
+    rdfs:label "Web Coverage Service (WCS)"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2000194"^^xsd:anyURI .
+
+memo:E1008 a nfdicore:Standard ;
+    rdfs:label "TLG ID"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Property:P3576"^^xsd:anyURI .
+
+memo:E1009 a nfdicore:Standard ;
+    rdfs:label "GND ID"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q54506313"^^xsd:anyURI .
+
+memo:E1010 a nfdicore:Standard ;
+    rdfs:label "COAR"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q48789578"^^xsd:anyURI .
+
+memo:E1011 a nfdicore:Standard ;
+    rdfs:label "ISO 639-2/T"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q110314826"^^xsd:anyURI .
+
+memo:E1012 a nfdicore:Standard ;
+    rdfs:label "Mimetype"^^xsd:string ;
+    owl:sameAs "?"^^xsd:string .
+
+memo:E1013 a nfdicore:Standard ;
+    rdfs:label "DataCite"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q105762834"^^xsd:anyURI .
+
+memo:E1014 a nfdicore:Standard ;
+    rdfs:label "ISO 8601"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q50101"^^xsd:anyURI .
+
+memo:E1015 a nfdicore:Standard ;
+    rdfs:label "DFG Science Classification"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q110439023"^^xsd:anyURI .
+
+memo:E1016 a nfdicore:Standard ;
+    rdfs:label "DStatis-Fachsystematik"^^xsd:string ;
+    nfdicore:url "https://www.destatis.de/DE/Methoden/Klassifikationen/Bildung/studenten-pruefungsstatistik.html"^^xsd:anyURI .
+
+memo:E1017 a nfdicore:MediaType,
+        nfdicore:Standard ;
+    rdfs:label "TEI"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q780920"^^xsd:anyURI .
+
+memo:E1018 a nfdicore:Standard ;
+    rdfs:label "OSM"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q936"^^xsd:anyURI .
+
+memo:E1019 a nfdicore:Standard ;
+    rdfs:label "LIDO"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1249973"^^xsd:anyURI .
+
+memo:E1020 a nfdicore:Standard ;
+    rdfs:label "CMDI"^^xsd:string ;
+    nfdicore:url "https://www.clarin.eu/content/cmdi-component-metadata-infrastructure"^^xsd:anyURI .
+
+memo:E1021 a nfdicore:Standard ;
+    rdfs:label "ISO 25964-1"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q57978535"^^xsd:anyURI .
+
+memo:E1022 a nfdicore:Standard ;
+    rdfs:label "Oberbegriffsdatei"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q57978535"^^xsd:anyURI .
+
+memo:E1023 a nfdicore:Standard ;
+    rdfs:label "AAT"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q611299"^^xsd:anyURI .
+
+memo:E1024 a nfdicore:Standard ;
+    rdfs:label "ICONCLASS"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1502787"^^xsd:anyURI .
+
+memo:E1025 a nfdicore:Standard ;
+    rdfs:label "GeoNames"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q830106"^^xsd:anyURI .
+
+memo:E1026 a nfdicore:Standard ;
+    rdfs:label "Wikidata"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2013"^^xsd:anyURI .
+
+memo:E1027 a nfdicore:MediaType,
+        nfdicore:Standard ;
+    rdfs:label "MARC21"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q3919686"^^xsd:anyURI .
+
+memo:E1028 a nfdicore:Standard ;
+    rdfs:label "ASEQ"^^xsd:string .
+
+memo:E1029 a nfdicore:Standard ;
+    rdfs:label "RDA"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1519318"^^xsd:anyURI .
+
+memo:E1030 a nfdicore:Standard ;
+    rdfs:label "FRBR"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q16388"^^xsd:anyURI .
+
+memo:E1031 a nfdicore:Standard ;
+    rdfs:label "RVK"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2137453"^^xsd:anyURI .
+
+memo:E1032 a nfdicore:Standard ;
+    rdfs:label "DDC"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q48460"^^xsd:anyURI .
+
+memo:E200 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "linking"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q744778"^^xsd:anyURI .
+
+memo:E2000 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "GraphQL"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q25104949"^^xsd:anyURI .
+
+memo:E2001 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "OAI-PMH"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2430433"^^xsd:anyURI .
+
+memo:E2002 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "SPARQL"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q54871"^^xsd:anyURI .
+
+memo:E2003 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "React"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q19399674"^^xsd:anyURI .
+
+memo:E2004 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "Cesium"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q116465523"^^xsd:anyURI .
+
+memo:E2005 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "Elasticsearch"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q3050461"^^xsd:anyURI .
+
+memo:E2006 a nfdicore:ProgrammingLanguage,
+        schema:DefinedTerm ;
+    rdfs:label "Python"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q28865"^^xsd:anyURI .
+
+memo:E2007 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "TYPO3"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q618512"^^xsd:anyURI .
+
+memo:E2008 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "PostgreSQL"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q192490"^^xsd:anyURI .
+
+memo:E2009 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "PostGIS"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1569955"^^xsd:anyURI .
+
+memo:E201 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "description"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1200750"^^xsd:anyURI .
+
+memo:E2010 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "REST API"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q749568"^^xsd:anyURI .
+
+memo:E2011 a nfdicore:ProgrammingLanguage,
+        schema:DefinedTerm ;
+    rdfs:label "Java "^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q251049499"^^xsd:anyURI .
+
+memo:E2012 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "Apache Ant"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q385970"^^xsd:anyURI .
+
+memo:E2013 a nfdicore:ProgrammingLanguage,
+        schema:DefinedTerm ;
+    rdfs:label "Shell Script"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q959549"^^xsd:anyURI .
+
+memo:E2014 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "MySQL"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q850"^^xsd:anyURI .
+
+memo:E2015 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "MariaDB"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q787177"^^xsd:anyURI .
+
+memo:E2016 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "Apache HTTP"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q11354"^^xsd:anyURI .
+
+memo:E2017 a nfdicore:ProgrammingLanguage,
+        schema:DefinedTerm ;
+    rdfs:label "PHP"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q59"^^xsd:anyURI .
+
+memo:E2018 a nfdicore:ProgrammingLanguage,
+        schema:DefinedTerm ;
+    rdfs:label "JavaScript"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2005"^^xsd:anyURI .
+
+memo:E2019 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "jQuery"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q230036"^^xsd:anyURI .
+
+memo:E2020 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "Angular"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q28925578"^^xsd:anyURI .
+
+memo:E2021 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "Spring"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q720314"^^xsd:anyURI .
+
+memo:E2022 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "HTML"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q8811"^^xsd:anyURI .
+
+memo:E2023 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "TypeScript"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q978185"^^xsd:anyURI .
+
+memo:E2024 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "webAPI (RESTful API)"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q557770"^^xsd:anyURI .
+
+memo:E2025 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "Search/Retrieve via URL"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q337367"^^xsd:anyURI .
+
+memo:E2026 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "Z39.50"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q135847"^^xsd:anyURI .
+
+memo:E2027 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "VuFind"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q850234"^^xsd:anyURI .
+
+memo:E2028 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "COinS"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1024186"^^xsd:anyURI .
+
+memo:E2029 a nfdicore:TechnologicalMeans,
+        schema:DefinedTerm ;
+    rdfs:label "RSS"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q45432"^^xsd:anyURI .
+
+memo:E203 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "georeferencing"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q772007"^^xsd:anyURI .
+
+memo:E204 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "search"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q11540953"^^xsd:anyURI .
+
+memo:E205 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "research"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q42240"^^xsd:anyURI .
+
+memo:E206 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "text analysis"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q676880"^^xsd:anyURI .
+
+memo:E207 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "storage"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2534289"^^xsd:anyURI .
+
+memo:E208 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "preservation"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q830393"^^xsd:anyURI .
+
+memo:E209 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "collection"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q108634029"^^xsd:anyURI .
+
+memo:E210 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "processing"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q6661985"^^xsd:anyURI .
+
+memo:E211 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "analysis"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q217602"^^xsd:anyURI .
+
+memo:E212 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "publication"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q3972943"^^xsd:anyURI .
+
+memo:E213 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "teaching"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q352842"^^xsd:anyURI .
+
+memo:E214 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "consulting"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q63769412"^^xsd:anyURI .
+
+memo:E215 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "documentation"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q99194075"^^xsd:anyURI .
+
+memo:E216 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "indexing"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q11977025"^^xsd:anyURI .
+
+memo:E217 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "collaboration"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1145523"^^xsd:anyURI .
+
+memo:E218 a memo:IntendedPurpose,
+        schema:DefinedTerm ;
+    rdfs:label "crowdsourcing"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q275969"^^xsd:anyURI .
+
+memo:E2221 a nfdicore:City ;
+    rdfs:label "Dresden"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1731"^^xsd:anyURI .
+
+memo:E2222 a nfdicore:City ;
+    rdfs:label "Amsterdam"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q727"^^xsd:anyURI .
+
+memo:E2223 a nfdicore:FederalState ;
+    rdfs:label "Sachsen"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1202"^^xsd:anyURI .
+
+memo:E2224 a nfdicore:Country ;
+    rdfs:label "Deutschland"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q183"^^xsd:anyURI .
+
+memo:E2225 a nfdicore:City ;
+    rdfs:label "Trier"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q3138"^^xsd:anyURI .
+
+memo:E2226 a nfdicore:FederalState ;
+    rdfs:label "Rheinland-Pfalz"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1200"^^xsd:anyURI .
+
+memo:E2227 a nfdicore:City,
+        nfdicore:FederalState ;
+    rdfs:label "Berlin"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q64"^^xsd:anyURI .
+
+memo:E2228 a nfdicore:City ;
+    rdfs:label "Garching"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q264620"^^xsd:anyURI .
+
+memo:E2229 a nfdicore:FederalState ;
+    rdfs:label "Bayern"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q980"^^xsd:anyURI .
+
+memo:E2230 a nfdicore:City ;
+    rdfs:label "Kiel"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1707"^^xsd:anyURI .
+
+memo:E2231 a nfdicore:City ;
+    rdfs:label "München"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1726"^^xsd:anyURI .
+
+memo:E300 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "metadata"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q180160"^^xsd:anyURI .
+
+memo:E301 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "controlled vocabulary"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1469824"^^xsd:anyURI .
+
+memo:E302 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "annotation"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q857525"^^xsd:anyURI .
+
+memo:E303 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "map"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q4006"^^xsd:anyURI .
+
+memo:E304 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "topographic map"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q216526"^^xsd:anyURI .
+
+memo:E305 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "text"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q234460"^^xsd:anyURI .
+
+memo:E306 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "image"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q478798"^^xsd:anyURI .
+
+memo:E307 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "object"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q16686448"^^xsd:anyURI .
+
+memo:E308 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "audio"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q26987250"^^xsd:anyURI .
+
+memo:E309 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "video"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q98069877"^^xsd:anyURI .
+
+memo:E310 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "simulation output"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q925667"^^xsd:anyURI .
+
+memo:E311 a memo:ObjectType,
+        schema:DefinedTerm ;
+    rdfs:label "data"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q42848"^^xsd:anyURI .
+
+memo:E3331 a nfdicore:Project ;
+    rdfs:label "Forschungsdatenrepositorium Trier (FRET)"^^xsd:string ;
+    nfdicore:participant memo:E603 ;
+    nfdicore:url "https://fret.uni-trier.de/"^^xsd:anyURI .
+
+memo:E3332 a nfdicore:Project ;
+    rdfs:label "Virtuelles Datenrepositorium ViDa"^^xsd:string ;
+    nfdicore:participant memo:E603 ;
+    nfdicore:url "https://vida.uni-trier.de/"^^xsd:anyURI .
+
+memo:E3333 a nfdicore:Project ;
+    rdfs:label "Oral-History.Digital. Interviewportal - Erschließungsplattform - Forschungsumgebung"^^xsd:string ;
+    nfdicore:url "https://www.oral-history.digital/index.html"^^xsd:anyURI .
+
+memo:E3334 a nfdicore:Project ;
+    rdfs:label "LRZ FAIR Data Portal"^^xsd:string ;
+    nfdicore:url "https://rdm.lab.lrz.de/"^^xsd:anyURI .
+
+memo:E3335 a nfdicore:Project ;
+    rdfs:label "Fachinformationsdienst Geschichtswissenschaft"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q55753846"^^xsd:anyURI ;
+    nfdicore:url "https://www.historicum.net"^^xsd:anyURI .
+
+memo:E400 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "XML"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2115"^^xsd:anyURI .
+
+memo:E401 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "JSON"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2063"^^xsd:anyURI .
+
+memo:E402 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "CSV"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q935809"^^xsd:anyURI .
+
+memo:E403 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "TSV"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q3513566"^^xsd:anyURI .
+
+memo:E404 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "JPG"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2195"^^xsd:anyURI .
+
+memo:E405 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "PNG"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q178051"^^xsd:anyURI .
+
+memo:E406 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "TIFF"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q215106"^^xsd:anyURI .
+
+memo:E407 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "GeoTIFF"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1502796"^^xsd:anyURI .
+
+memo:E408 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "GeoJSON"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q5533904"^^xsd:anyURI .
+
+memo:E409 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "SVG"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2078"^^xsd:anyURI .
+
+memo:E410 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "PDF"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q42332"^^xsd:anyURI .
+
+memo:E411 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "TXT"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q86920"^^xsd:anyURI .
+
+memo:E412 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "MP3"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q42591"^^xsd:anyURI .
+
+memo:E413 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "WAV"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q217570"^^xsd:anyURI .
+
+memo:E414 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "MP4"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q336316"^^xsd:anyURI .
+
+memo:E415 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "WebVTT"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q3566973"^^xsd:anyURI .
+
+memo:E416 a nfdicore:MediaType,
+        nfdicore:Standard,
+        schema:DefinedTerm ;
+    rdfs:label "DataCite Metadata Schema"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q105762834"^^xsd:anyURI .
+
+memo:E417 a nfdicore:MediaType,
+        nfdicore:Standard,
+        schema:DefinedTerm ;
+    rdfs:label "RDF "^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q54872"^^xsd:anyURI .
+
+memo:E418 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "RDF/XML"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q48940"^^xsd:anyURI .
+
+memo:E419 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "MARCXML"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q28770433"^^xsd:anyURI .
+
+memo:E420 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "BibTeX"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q8029"^^xsd:anyURI .
+
+memo:E421 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "RIS"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q923990"^^xsd:anyURI .
+
+memo:E422 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "RefWorks"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q7307076"^^xsd:anyURI .
+
+memo:E423 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "EndNote"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q61887390"^^xsd:anyURI .
+
+memo:E424 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "HTML"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q62626012"^^xsd:anyURI .
+
+memo:E425 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "RTF"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q467454"^^xsd:anyURI .
+
+memo:E426 a nfdicore:MediaType,
+        schema:DefinedTerm ;
+    rdfs:label "TEX"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q5301"^^xsd:anyURI .
+
+memo:E500 a nfdicore:License,
+        schema:DefinedTerm ;
+    rdfs:label "EUPL (European Union Public Licence)"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1376919"^^xsd:anyURI .
+
+memo:E501 a nfdicore:License,
+        schema:DefinedTerm ;
+    rdfs:label "Creative Commons CC0"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q6938433"^^xsd:anyURI .
+
+memo:E502 a nfdicore:License,
+        schema:DefinedTerm ;
+    rdfs:label "Creative Commons"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q284742"^^xsd:anyURI .
+
+memo:E503 a nfdicore:License,
+        schema:DefinedTerm ;
+    rdfs:label "Apache 2.0"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q13785927"^^xsd:anyURI .
+
+memo:E504 a nfdicore:License,
+        schema:DefinedTerm ;
+    rdfs:label "MIT"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q334661"^^xsd:anyURI .
+
+memo:E505 a nfdicore:License,
+        schema:DefinedTerm ;
+    rdfs:label "RightsStatements.org"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q47530706"^^xsd:anyURI .
+
+memo:E700 a nfdicore:Organization ;
+    rdfs:label "Institut für Zeitgeschichte "^^xsd:string ;
+    owl:sameAs " https://ror.org/008pp7a77"^^xsd:anyURI,
+        "https://www.wikidata.org/wiki/Q896552"^^xsd:anyURI ;
+    org:classification memo:E3000,
+        memo:E3001 ;
+    nfdicore:url "https://www.ifz-muenchen.de/"^^xsd:anyURI ;
+    schema:member memo:E600 .
+
+memo:E701 a nfdicore:Organization ;
+    rdfs:label "Sächsische Landesbibliothek - Staats- und Universitätsbibliothek"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q323270"^^xsd:anyURI ;
+    org:classification memo:E3002 ;
+    nfdicore:url "https://www.slub-dresden.de/"^^xsd:anyURI ;
+    schema:member memo:E601 .
+
+memo:E703 a nfdicore:Organization ;
+    rdfs:label "Universität Trier"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q702486"^^xsd:anyURI ;
+    org:classification memo:E3004 ;
+    nfdicore:subsidiaryOrganization memo:E702,
+        memo:E704 ;
+    nfdicore:url " https://ror.org/02778hg05"^^xsd:anyURI,
+        "https://uni-trier.de"^^xsd:anyURI ;
+    schema:member memo:E603,
+        memo:E604,
+        memo:E605,
+        memo:E606 .
+
+memo:E705 a nfdicore:Organization ;
+    rdfs:label "Freie Universität Berlin"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q153006"^^xsd:anyURI ;
+    org:classification memo:E3004 ;
+    nfdicore:subsidiaryOrganization memo:E706 ;
+    nfdicore:url "https://www.fu-berlin.de/"^^xsd:anyURI .
+
+memo:E707 a nfdicore:Organization ;
+    rdfs:label "FernUniversität in Hagen"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q687017"^^xsd:anyURI ;
+    org:classification memo:E3004 ;
+    nfdicore:subsidiaryOrganization memo:E708 ;
+    nfdicore:url "https://www.fernuni-hagen.de/index.shtml"^^xsd:anyURI .
+
+memo:E710 a nfdicore:Organization ;
+    rdfs:label "Leibniz-Rechenzentrum (LRZ) der Bayerischen Akademie der Wissenschaften"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q872555"^^xsd:anyURI ;
+    org:classification memo:E3007 ;
+    nfdicore:url "https://www.lrz.de/"^^xsd:anyURI ;
+    schema:member memo:E614,
+        memo:E615 .
+
+memo:E711 a nfdicore:Organization ;
+    rdfs:label "Digicult"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1123235"^^xsd:anyURI ;
+    nfdicore:url "https://www.digicult-verbund.de/de"^^xsd:anyURI ;
+    schema:member memo:E616,
+        memo:E617 .
+
+memo:E715 a nfdicore:Organization ;
+    rdfs:label "Deutsches Museum"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q131617"^^xsd:anyURI ;
+    org:classification memo:E3009 ;
+    nfdicore:url "https://www.deutsches-museum.de/"^^xsd:anyURI ;
+    schema:member memo:E621 .
+
+memo:E801 a skos:Concept,
+        nfdicore:AcademicDiscipline,
+        schema:DefinedTerm ;
+    rdfs:label "Archivwissenschaften"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q380313"^^xsd:anyURI .
+
+memo:E806 a skos:Concept,
+        nfdicore:AcademicDiscipline,
+        schema:DefinedTerm ;
+    rdfs:label "Geistes- und Sozialwissenschaften"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q33122512"^^xsd:anyURI .
+
+memo:E1 a nfdicore:Organization ;
+    rdfs:label "National Research Data Infrastructure"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q61658497"^^xsd:anyURI ;
+    nfdicore:subsidiaryOrganization memo:E2 ;
+    nfdicore:url "https://www.nfdi.de/"^^xsd:anyURI ;
+    schema:member memo:E77710,
+        memo:E77711 .
+
+memo:E3001 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "Leibniz Association"^^xsd:string ;
+    owl:sameAs "https://nfdi4culture.de/resource/E4601/about.html"^^xsd:anyURI .
+
+memo:E3003 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "faculty"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q180958"^^xsd:anyURI .
+
+memo:E3005 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "state archive"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q52341833"^^xsd:anyURI .
+
+memo:E3006 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "university institute"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q11946645"^^xsd:anyURI .
+
+memo:E3007 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "data center"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q671224"^^xsd:anyURI .
+
+memo:E3008 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "library"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q7075"^^xsd:anyURI .
+
+memo:E3009 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "museum"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q33506"^^xsd:anyURI .
+
+memo:E600 a nfdicore:Person ;
+    rdfs:label "Johannes Meerwald"^^xsd:string ;
+    nfdicore:subjectArea memo:,
+        memo:E800 ;
+    nfdicore:url "https://www.ifz-muenchen.de/das-institut/mitarbeiterinnen/ea/mitarbeiter/johannes-meerwald"^^xsd:anyURI ;
+    schema:name "Johannes Meerwald"^^xsd:string .
+
+memo:E601 a nfdicore:Person ;
+    rdfs:label "Dominik Stoltz"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q95382360"^^xsd:anyURI ;
+    nfdicore:subjectArea memo:E800,
+        memo:E802 ;
+    nfdicore:url " https://www.slub-dresden.de/ueber-uns/kontakte-und-ansprechpersonen/dominik-stoltz"^^xsd:anyURI,
+        "https://orcid.org/0009-0001-4168-0730"^^xsd:anyURI ;
+    schema:name "Dominik Stoltz"^^xsd:string .
+
+memo:E602 a nfdicore:Person ;
+    rdfs:label "Charlotte Schubert"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1067332"^^xsd:anyURI ;
+    nfdicore:subjectArea memo:E800,
+        memo:E804 ;
+    nfdicore:url "https://orcid.org/0000-0002-3132-8231"^^xsd:anyURI ;
+    schema:honorificPrefix "Prof. Dr."^^xsd:string ;
+    schema:name "Charlotte Schubert"^^xsd:string .
+
+memo:E604 a nfdicore:Person ;
+    rdfs:label "Jan Ludwig"^^xsd:string ;
+    schema:name "Jan Ludwig"^^xsd:string .
+
+memo:E605 a nfdicore:Person ;
+    rdfs:label "Julia Gebhardt"^^xsd:string ;
+    schema:name "Julia Gebhardt"^^xsd:string .
+
+memo:E607 a nfdicore:Person ;
+    rdfs:label "Yvonne Rommelfanger"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q119471971"^^xsd:anyURI ;
+    nfdicore:subjectArea memo:E805 ;
+    nfdicore:url " https://orcid.org/0009-0004-2323-4122"^^xsd:anyURI,
+        "https://fud.uni-trier.de/mitarbeiter/yvonne-rommelfanger/"^^xsd:anyURI ;
+    schema:name "Yvonne Rommelfanger"^^xsd:string .
+
+memo:E608 a nfdicore:Person ;
+    rdfs:label "Ansgar Schmitz"^^xsd:string ;
+    nfdicore:subjectArea memo:E805 ;
+    nfdicore:url "https://fud.uni-trier.de/mitarbeiter/ansgar-schmitz/"^^xsd:anyURI ;
+    schema:name "Ansgar Schmitz"^^xsd:string .
+
+memo:E609 a nfdicore:Person ;
+    rdfs:label "Stefan Kellendonk"^^xsd:string ;
+    nfdicore:subjectArea memo:E805 ;
+    nfdicore:url " https://orcid.org/0000-0003-1009-3311"^^xsd:anyURI,
+        "https://fud.uni-trier.de/mitarbeiter/stefan-kellendonk/"^^xsd:anyURI ;
+    schema:name "Stefan Kellendonk"^^xsd:string .
+
+memo:E610 a nfdicore:Person ;
+    rdfs:label "Cord Pagenstecher"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q95317347"^^xsd:anyURI ;
+    nfdicore:url " http://www.cord-pagenstecher.de/"^^xsd:anyURI,
+        "https://orcid.org/0000-0002-2412-5348"^^xsd:anyURI ;
+    schema:honorificPrefix "Dr."^^xsd:string ;
+    schema:name "Cord Pagenstecher"^^xsd:string .
+
+memo:E611 a nfdicore:Person ;
+    rdfs:label "Almut Leh"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2649803"^^xsd:anyURI ;
+    nfdicore:url "https://www.fernuni-hagen.de/geschichteundbiographie/team/almut.leh.shtml"^^xsd:anyURI ;
+    schema:honorificPrefix "Dr."^^xsd:string ;
+    schema:name "Almut Leh"^^xsd:string .
+
+memo:E612 a nfdicore:Person ;
+    rdfs:label "Herdis Kley"^^xsd:string ;
+    nfdicore:url "https://www.cedis.fu-berlin.de/cedis/mitarbeiter/beschaeftigte/hkley.html"^^xsd:anyURI ;
+    schema:name "Herdis Kley"^^xsd:string .
+
+memo:E613 a nfdicore:Person ;
+    rdfs:label "Peter Kompiel"^^xsd:string ;
+    nfdicore:url "https://www.fu-berlin.de/sites/ub/ueber-uns/team/kompiel/index.html"^^xsd:anyURI ;
+    schema:name "Peter Kompiel"^^xsd:string .
+
+memo:E614 a nfdicore:Person ;
+    rdfs:label "Stephan Hachinger"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q60176930"^^xsd:anyURI ;
+    nfdicore:url " https://orcid.org/0000-0001-8341-1478"^^xsd:anyURI,
+        "https://trr356plantmicrobe.de/people/professors/hachinger/index.html"^^xsd:anyURI ;
+    schema:honorificPrefix "Dr."^^xsd:string ;
+    schema:name "Stephan Hachinger"^^xsd:string .
+
+memo:E615 a nfdicore:Person ;
+    rdfs:label "Johannes Munke"^^xsd:string ;
+    nfdicore:url """ https://orcid.org/0000-0002-5031-9170
+"""^^xsd:anyURI,
+        "https://trr356plantmicrobe.de/people/employees1/munke/index.html"^^xsd:anyURI ;
+    schema:name "Johannes Munke"^^xsd:string .
+
+memo:E616 a nfdicore:Person ;
+    rdfs:label "Axel Vitzthum"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q115624919"^^xsd:anyURI ;
+    schema:name "Axel Vitzthum"^^xsd:string .
+
+memo:E617 a nfdicore:Person ;
+    rdfs:label """Johannes Bracht
+"""^^xsd:string ;
+    nfdicore:url "https://orcid.org/0000-0001-5257-3255"^^xsd:anyURI ;
+    schema:honorificPrefix "Dr."^^xsd:string ;
+    schema:name """Johannes Bracht
+"""^^xsd:string .
+
+memo:E618 a nfdicore:Person ;
+    rdfs:label "Gregor Horstkemper"^^xsd:string ;
+    nfdicore:url "https://orcid.org/0000-0002-1450-2015"^^xsd:anyURI ;
+    schema:name "Gregor Horstkemper"^^xsd:string .
+
+memo:E619 a nfdicore:Person ;
+    rdfs:label "Wiebke Herr"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q95651443"^^xsd:anyURI ;
+    schema:honorificPrefix "Dr."^^xsd:string ;
+    schema:name "Wiebke Herr"^^xsd:string .
+
+memo:E620 a nfdicore:Person ;
+    rdfs:label "Moritz Friesenhausen"^^xsd:string ;
+    schema:name "Moritz Friesenhausen"^^xsd:string .
+
+memo:E621 a nfdicore:Person ;
+    rdfs:label "Helmut Hilz"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q118119460"^^xsd:anyURI ;
+    schema:honorificPrefix "Dr."^^xsd:string ;
+    schema:name "Helmut Hilz"^^xsd:string .
+
+memo:E702 a nfdicore:Organization ;
+    rdfs:label "Universität Trier, Fachbereich III Alte Geschichte"^^xsd:string ;
+    org:classification memo:E3000,
+        memo:E3003 ;
+    nfdicore:url " https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iii/faecher/geschichte/profil/fachgebiete/alte-geschichte-1/team "^^xsd:anyURI,
+        "https://ror.org/02778hg05"^^xsd:anyURI ;
+    schema:member memo:E602 .
+
+memo:E704 a nfdicore:Organization ;
+    rdfs:label "Servicecenter eSciences (SeS)"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q113993555"^^xsd:anyURI ;
+    schema:member memo:E606,
+        memo:E607,
+        memo:E608,
+        memo:E609 .
+
+memo:E706 a nfdicore:Organization ;
+    rdfs:label "Universitätsbibliothek der Freien Universität Berlin"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2496344"^^xsd:anyURI ;
+    org:classification memo:E3002 ;
+    nfdicore:subsidiaryOrganization memo:E709 ;
+    nfdicore:url "https://www.fu-berlin.de/sites/ub/index.html"^^xsd:anyURI .
+
+memo:E708 a nfdicore:Organization ;
+    rdfs:label "FernUniversität in Hagen, Institut für Geschichte und Biographie"^^xsd:string ;
+    org:classification memo:E3006 ;
+    nfdicore:url "https://www.fernuni-hagen.de/geschichteundbiographie/"^^xsd:anyURI ;
+    schema:member memo:E611 .
+
+memo:E709 a nfdicore:Organization ;
+    rdfs:label """Digitale Interview-Sammlungen
+"""^^xsd:string ;
+    nfdicore:url "https://www.fu-berlin.de/sites/interviewsammlungen"^^xsd:anyURI ;
+    schema:member memo:E610,
+        memo:E612,
+        memo:E613 .
+
+memo:E712 a nfdicore:Organization ;
+    rdfs:label "Bayerische Staatsbibliothek"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q256507"^^xsd:anyURI ;
+    org:classification memo:E3008 ;
+    nfdicore:url " https://ror.org/031h71w90 "^^xsd:anyURI,
+        "https://www.bsb-muenchen.de/"^^xsd:anyURI ;
+    schema:member memo:E618,
+        memo:E619,
+        memo:E620 .
+
+memo:E713 a nfdicore:Organization ;
+    rdfs:label "FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1388737"^^xsd:anyURI ;
+    org:classification memo:E3000 ;
+    nfdicore:url "https://www.fiz-karlsruhe.de/"^^xsd:anyURI .
+
+memo:E714 a nfdicore:Organization ;
+    rdfs:label "Landesarchiv Baden-Württemberg"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1231602"^^xsd:anyURI ;
+    org:classification memo:E3005 ;
+    nfdicore:url "https://www.landesarchiv-bw.de/"^^xsd:anyURI .
+
+memo:E7771 a nfdicore:Organization ;
+    rdfs:label "Task Area 1: Data Quality"^^xsd:string ;
+    nfdicore:parentOrganization memo:E2 ;
+    nfdicore:url "https://4memory.de/task-areas/task-area-1-data-quality/"^^xsd:anyURI .
+
+memo:E7772 a nfdicore:Organization ;
+    rdfs:label "Task Area 2: Data Connectivity"^^xsd:string ;
+    nfdicore:parentOrganization memo:E2 ;
+    nfdicore:url "https://4memory.de/task-areas/task-area-2-data-connectivity/"^^xsd:anyURI .
+
+memo:E7773 a nfdicore:Organization ;
+    rdfs:label "Task Area 3: Data Services"^^xsd:string ;
+    nfdicore:parentOrganization memo:E2 ;
+    nfdicore:url "https://4memory.de/task-areas/task-area-3-data-services/"^^xsd:anyURI ;
+    schema:member memo:E712,
+        memo:E713,
+        memo:E714 .
+
+memo:E7774 a nfdicore:Organization ;
+    rdfs:label "Task Area 4: Data Literacy"^^xsd:string ;
+    nfdicore:parentOrganization memo:E2 ;
+    nfdicore:url "https://4memory.de/task-areas/task-area-4-data-literacy/"^^xsd:anyURI .
+
+memo:E7775 a nfdicore:Organization ;
+    rdfs:label "Task Area 5: Data Culture"^^xsd:string ;
+    nfdicore:parentOrganization memo:E2 ;
+    nfdicore:url "https://4memory.de/task-areas/task-area-5-data-culture/"^^xsd:anyURI .
+
+memo:E7776 a nfdicore:Organization ;
+    rdfs:label "Task Area 6: Participation and Steering"^^xsd:string ;
+    nfdicore:parentOrganization memo:E2 ;
+    nfdicore:url "https://4memory.de/task-areas/task-area-6-participation-and-steering/"^^xsd:anyURI .
+
+memo:E802 a skos:Concept,
+        nfdicore:AcademicDiscipline,
+        schema:DefinedTerm ;
+    rdfs:label "Geowissenschaften"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q8008"^^xsd:anyURI .
+
+memo:E803 a skos:Concept,
+        nfdicore:AcademicDiscipline,
+        schema:DefinedTerm ;
+    rdfs:label "Digital Humanities"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1026962"^^xsd:anyURI .
+
+memo:E804 a skos:Concept,
+        nfdicore:AcademicDiscipline,
+        schema:DefinedTerm ;
+    rdfs:label "Alte Geschichte"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q435608"^^xsd:anyURI .
+
+memo:E3002 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "academic library"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q856234"^^xsd:anyURI .
+
+memo:E606 a nfdicore:Person ;
+    rdfs:label "Peter Albertz"^^xsd:string ;
+    nfdicore:subjectArea memo:E805 ;
+    nfdicore:url "https://fud.uni-trier.de/mitarbeiter/peter-albertz/"^^xsd:anyURI ;
+    schema:name "Peter Albertz"^^xsd:string .
+
+memo:E3000 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "research institute"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q31855"^^xsd:anyURI .
+
+memo:E3004 a skos:Concept,
+        schema:DefinedTerm ;
+    rdfs:label "university"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q3918"^^xsd:anyURI .
+
+memo:E603 a nfdicore:Person ;
+    rdfs:label "Marina Lemaire"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q119471676"^^xsd:anyURI ;
+    nfdicore:subjectArea memo:E800,
+        memo:E803,
+        memo:E805 ;
+    nfdicore:url "https://orcid.org/0000-0003-4726-2481"^^xsd:anyURI ;
+    schema:honorificPrefix "Dr."^^xsd:string ;
+    schema:name "Marina Lemaire"^^xsd:string .
+
+memo:E800 a skos:Concept,
+        nfdicore:AcademicDiscipline,
+        schema:DefinedTerm ;
+    rdfs:label "Geschichte"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q309"^^xsd:anyURI .
+
+memo:E805 a skos:Concept,
+        nfdicore:AcademicDiscipline,
+        schema:DefinedTerm ;
+    rdfs:label "Forschungsdatenmanagement"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q30089794"^^xsd:anyURI .
+
+memo:E2 a nfdicore:Consortium ;
+    rdfs:label "NFDI4Memory - The Consortium for the Historically Oriented Humanities"^^xsd:string ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q98231721"^^xsd:anyURI ;
+    nfdicore:parentOrganization memo:E1 ;
+    nfdicore:subsidiaryOrganization memo:E7771,
+        memo:E7772,
+        memo:E7773,
+        memo:E7774,
+        memo:E7775,
+        memo:E7776 ;
+    nfdicore:url "https://4memory.de/"^^xsd:anyURI ;
+    schema:member memo:E77710,
+        memo:E77711 .
+

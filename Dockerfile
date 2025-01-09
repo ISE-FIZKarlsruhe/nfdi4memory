@@ -1,6 +1,18 @@
-FROM ghcr.io/epoz/shmarql:latest
+FROM openjdk:jre AS widoco
+
+RUN wget https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.25-jar-with-dependencies_JDK-11.jar 
+
+COPY ./other/4mo-module.ttl /data/ontology.ttl
+
+RUN java -jar widoco-1.4.25-jar-with-dependencies_JDK-11.jar -ontFile /data/ontology.ttl -outFolder public -uniteSections -includeAnnotationProperties -lang en-de -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
+
+FROM ghcr.io/epoz/shmarql:v0.48
 
 COPY docs /src/docs
 COPY mkdocs.yml /src/mkdocs.yml
-
 RUN mkdocs build
+
+RUN rm -r /src/site/ontology
+COPY --from=widoco /public /src/site/
+RUN mv /src/site/doc /src/site/ontology
+RUN cp /src/site/ontology/index-en.html /src/site/ontology/index.html

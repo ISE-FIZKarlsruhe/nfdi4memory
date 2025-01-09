@@ -1,50 +1,23 @@
-## Term count
+## Examples
+
+### Example 1: Retrieve all MEMO Data Portals.
 
 ```sparql
-# counts  all defined terms in the triple store
-
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-SELECT (NOW() AS ?date) (xsd:integer(COUNT(?term)) AS ?count)
+PREFIX nfdicore: <https://nfdi.fiz-karlsruhe.de/ontology/#>
+SELECT ?portal ?label
 WHERE {
-    ?term a <http://schema.org/DefinedTerm> .
+  ?portal a nfdicore:DataPortal ;
+          rdfs:label ?label .
 }
 ```
 
-## Instance count
-
+### Example 2: Find resources and their intended purpose.
 ```sparql
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-SELECT (NOW() AS ?date) ?type (xsd:integer(COUNT(?s)) AS ?count)
+PREFIX nfdicore: <https://nfdi.fiz-karlsruhe.de/ontology/#>
+PREFIX memo: <https://nfdi.fiz-karlsruhe.de/4memory/ontology/>
+SELECT ?resource ?intendedPurpose
 WHERE {
-  ?subject a ?type .
+  ?resource a nfdicore:Resource ;
+             memo:intendedPurpose ?intendedPurpose .
 }
-GROUP BY ?type
-ORDER BY ?type
-```
-
-## Resource count
-
-```sparql
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-SELECT (NOW() AS ?date) (xsd:integer(COUNT(DISTINCT ?resource)) AS ?count)
-WHERE {
-  ?resource ?p ?o .
-}
-```
-
-## Triple count
-
-```sparql
-# counts all triples in a triple store and returns
-# the total number together with a current timestamp
-
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-SELECT (NOW() AS ?date) (xsd:integer(COUNT(*)) AS ?count) WHERE {
-   ?s ?p ?o
-}
-
 ```
