@@ -2,11 +2,13 @@ version: '3.8'
 
 services:
   nfdi4memory:
-    image: ghcr.io/ise-fizkarlsruhe/nfdi4memory:v1
+    image: ghcr.io/ise-fizkarlsruhe/nfdi4memory:v2
     ports:
       - "8080:8000"
     environment:
-      - DEBUG=1
       - DATA_LOAD_PATHS=/data
+      - MOUNT=/4memory/
+      - FTS_FILEPATH=/data/fts
+      - SITE_URI=https://nfdi.fiz-karlsruhe.de/
     volumes:
       - ./data:/data
