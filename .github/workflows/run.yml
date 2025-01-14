@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v3
@@ -16,5 +16,4 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Run Docker Container
         run: |
-          pip install docker
-          python run.py
+          pip install docker && python run.py
