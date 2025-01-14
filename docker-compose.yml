@@ -1,5 +1,6 @@
 services:
   nfdi4memory:
+    image: ghcr.io/ise-fizkarlsruhe/nfdi4memory:latest
     build: .
     ports:
       - "8000:8000"
