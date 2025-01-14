@@ -1,10 +1,8 @@
-version: '3.8'
-
 services:
   nfdi4memory:
-    image: ghcr.io/ise-fizkarlsruhe/nfdi4memory:v2
+    build: .
     ports:
-      - "8080:8000"
+      - "8000:8000"
     environment:
       - DATA_LOAD_PATHS=/data
       - MOUNT=/4memory/
