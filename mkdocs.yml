@@ -25,12 +25,16 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 markdown_extensions:
+  - shmarql
   - pymdownx.highlight:
       anchor_linenums: true
       linenums: true
+      use_pygments: true
+      pygments_lang_class: true      
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - attr_list
 extra_javascript:
   - javascripts/extra.js
 nav:
