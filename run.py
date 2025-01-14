@@ -1,6 +1,17 @@
 import docker
 
 client = docker.from_env()
+
+client.image.pull("ghcr.io/ise-fizkarlsruhe/nfdi4memory")
+
+try:
+    c = client.containers.get("nfdi4memory")
+    print(c)
+    c.stop()
+except:
+    print(f"Container nfdi4memory not found")
+
+
 c = client.containers.run(
     "ghcr.io/ise-fizkarlsruhe/nfdi4memory:latest",
     remove=True,
