@@ -27,3 +27,4 @@ c = client.containers.run(
     name="nfdi4memory",
     detach=True,
 )
+print("Now:", c)
