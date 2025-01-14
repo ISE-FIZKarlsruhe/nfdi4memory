@@ -25,6 +25,3 @@ jobs:
         run: |
           docker build -t $REGISTRY/${REPO}:latest -t $REGISTRY/${REPO}:$(date +%s) .  
           docker push $REGISTRY/${REPO} --all-tags
-      - name: Run Docker Container
-        run: |
-          pip install docker && python run.py
