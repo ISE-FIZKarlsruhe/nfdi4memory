@@ -9,6 +9,7 @@ RUN java -jar widoco-1.4.25-jar-with-dependencies_JDK-11.jar -ontFile /data/onto
 FROM ghcr.io/epoz/shmarql:latest
 
 COPY data /data
+COPY ./other/4mo-module.ttl /data/ontology.ttl
 COPY docs /src/docs
 COPY mkdocs.yml /src/mkdocs.yml
 RUN mkdocs build
