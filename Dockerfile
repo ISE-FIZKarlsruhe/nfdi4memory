@@ -6,10 +6,9 @@ COPY ./other/4mo-module.ttl /data/ontology.ttl
 
 RUN java -jar widoco-1.4.25-jar-with-dependencies_JDK-11.jar -ontFile /data/ontology.ttl -outFolder public -uniteSections -includeAnnotationProperties -lang en-de -getOntologyMetadata -noPlaceHolderText -rewriteAll -webVowl
 
-FROM ghcr.io/epoz/shmarql:v0.48
+FROM ghcr.io/epoz/shmarql:latest
 
 COPY data /data
-COPY ./other/4mo-module.ttl /data/ontology.ttl
 COPY docs /src/docs
 COPY mkdocs.yml /src/mkdocs.yml
 RUN mkdocs build
