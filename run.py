@@ -2,7 +2,7 @@ import docker
 
 client = docker.from_env()
 
-client.image.pull("ghcr.io/ise-fizkarlsruhe/nfdi4memory")
+client.images.pull("ghcr.io/ise-fizkarlsruhe/nfdi4memory")
 
 try:
     c = client.containers.get("nfdi4memory")
