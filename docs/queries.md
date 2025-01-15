@@ -10,14 +10,3 @@ WHERE {
           rdfs:label ?label .
 }
 ```
-
-### Example 2: Find resources and their intended purpose.
-```sparql
-PREFIX nfdicore: <https://nfdi.fiz-karlsruhe.de/ontology/>
-PREFIX memo: <https://nfdi.fiz-karlsruhe.de/4memory/ontology/>
-SELECT ?resource ?intendedPurpose
-WHERE {
-  ?resource a nfdicore:Resource ;
-             memo:intendedPurpose ?intendedPurpose .
-}
-```
