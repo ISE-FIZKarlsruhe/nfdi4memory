@@ -80,8 +80,6 @@ nav:
       - university institute: resource/E3006
     - Consortium:
       - NFDI4Memory - The Consortium for the Historically Oriented Humanities: resource/E2
-    - Consulting and Funding:
-      - FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften: resource/E107
     - Country:
       - Deutschland: resource/E2224
     - Data Portal:
@@ -98,10 +96,6 @@ nav:
       - Berlin: resource/E2227
       - Rheinland-Pfalz: resource/E2226
       - Sachsen: resource/E2223
-    - Information and Documentation:
-      - FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften: resource/E107
-    - Learning and Teaching:
-      - FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften: resource/E107
     - License:
       - Apache 2.0: resource/E503
       - Creative Commons: resource/E502
@@ -198,12 +192,11 @@ nav:
       - LRZ FAIR Data Portal: resource/E3334
       - Oral-History.Digital. Interviewportal - Erschließungsplattform - Forschungsumgebung: resource/E3333
       - Virtuelles Datenrepositorium ViDa: resource/E3332
-    - Publication and Dissemination:
-      - FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften: resource/E107
     - Service:
       - Leibniz-Rechenzentrum (LRZ) FAIR Data Portal: resource/E109
       - Oral-History.Digital. Interviewportal - Erschließungsplattform - Forschungsumgebung: resource/E108
       - xTree Vokabularverwaltung für 200+ Vokabulare/Teilvokabulare: resource/E110
+      - FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften: resource/E107
     - Software:
       - FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften: resource/E106
       - Oral-History.Digital. Interviewportal - Erschließungsplattform - Forschungsumgebung: resource/E108
