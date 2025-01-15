@@ -214,11 +214,11 @@ memo-resource:E106 a nfdicore:Software ;
     nfdicore:url "https://fud.uni-trier.de"^^xsd:anyURI ;
     schema:name "FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften"^^xsd:string .
 
-memo-resource:E107 a <https://nfdi.fiz-karlsruhe.de/ontology/#Consulting&Funding>,
-        <https://nfdi.fiz-karlsruhe.de/ontology/#Information&Documentation>,
-        <https://nfdi.fiz-karlsruhe.de/ontology/#Learning&Teaching>,
-        <https://nfdi.fiz-karlsruhe.de/ontology/#Publication&Dissemination>,
-        <https://nfdi.fiz-karlsruhe.de/ontology/#Storage&Preservation> ;
+memo-resource:E107 a <https://nfdi.fiz-karlsruhe.de/ontology/Consulting&Funding>,
+        <https://nfdi.fiz-karlsruhe.de/ontology/Information&Documentation>,
+        <https://nfdi.fiz-karlsruhe.de/ontology/Learning&Teaching>,
+        <https://nfdi.fiz-karlsruhe.de/ontology/Publication&Dissemination>,
+        <https://nfdi.fiz-karlsruhe.de/ontology/Storage&Preservation> ;
     rdfs:label "FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften"^^xsd:string ;
     memo:intendedPurpose memo-resource:E200,
         memo-resource:E201,
