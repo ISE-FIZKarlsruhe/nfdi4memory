@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     xLink.style.display = "block";
     xLink.title = "Execute Query";
     xLink.href =
-      "/4memory/sparql?query=" + encodeURIComponent(thecode.innerText);
+      "/4memory/shmarql/?query=" + encodeURIComponent(thecode.innerText);
     xLink.innerHTML = fa_aeroplane;
 
     thepre.appendChild(xLink);

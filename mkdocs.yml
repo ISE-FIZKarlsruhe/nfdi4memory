@@ -42,7 +42,7 @@ nav:
 - Data Model: data_model.md
 - Ontology: ontology.md
 - Sample Queries: queries.md
-- SPARQL Endpoint: shmarql
+- SPARQL Endpoint: /4memory/shmarql/
 - Resources:
     - Academic Discipline:
       - Alte Geschichte: resource/E804
