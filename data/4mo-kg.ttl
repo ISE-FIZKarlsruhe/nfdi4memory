@@ -4,17 +4,12 @@
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 memo-resource:E100 a nfdicore:DataPortal ;
     rdfs:label "Portal der European Holocaust Research Infrastructure (EHRI)"^^xsd:string ;
-    rdfs:comment "![E100.png](../img/E100.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E100.png> ;
-    memo:intendedPurpose memo-resource:E200,
-        memo-resource:E201 ;
     memo:objectType memo-resource:E300,
         memo-resource:E301,
         memo-resource:E302 ;
@@ -43,12 +38,6 @@ memo-resource:E1006 a nfdicore:Standard ;
 
 memo-resource:E101 a nfdicore:DataPortal ;
     rdfs:label "Virtuelles Kartenforum"^^xsd:string ;
-    rdfs:comment "![E101.png](../img/E101.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E101.png> ;
-    memo:intendedPurpose memo-resource:E201,
-        memo-resource:E203,
-        memo-resource:E204,
-        memo-resource:E205 ;
     memo:objectType memo-resource:E303,
         memo-resource:E304 ;
     nfdicore:contactPoint memo-resource:E601 ;
@@ -80,9 +69,6 @@ memo-resource:E101 a nfdicore:DataPortal ;
 
 memo-resource:E103 a nfdicore:DataPortal ;
     rdfs:label "eAQUA"^^xsd:string ;
-    rdfs:comment "![E103.png](../img/E103.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E103.png> ;
-    memo:intendedPurpose memo-resource:E206 ;
     memo:objectType memo-resource:E305 ;
     nfdicore:contactPoint memo-resource:E602 ;
     nfdicore:contributor memo-resource:E702 ;
@@ -115,10 +101,6 @@ memo-resource:E103 a nfdicore:DataPortal ;
 
 memo-resource:E104 a nfdicore:Software ;
     rdfs:label "Virtuelles Datenrepositorium ViDa"^^xsd:string ;
-    rdfs:comment "![E104.png](../img/E104.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E104.png> ;
-    memo:intendedPurpose memo-resource:E207,
-        memo-resource:E208 ;
     nfdicore:contactPoint memo-resource:E603,
         memo-resource:E604,
         memo-resource:E605,
@@ -147,10 +129,6 @@ memo-resource:E104 a nfdicore:Software ;
 
 memo-resource:E105 a nfdicore:Dataset ;
     rdfs:label "Forschungsdatenrepositorium Trier (FRET)"^^xsd:string ;
-    rdfs:comment "![E100.png](../img/E105.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E105.png> ;
-    memo:intendedPurpose memo-resource:E207,
-        memo-resource:E208 ;
     nfdicore:contactPoint memo-resource:E603,
         memo-resource:E604,
         memo-resource:E605,
@@ -179,17 +157,6 @@ memo-resource:E105 a nfdicore:Dataset ;
 
 memo-resource:E106 a nfdicore:Software ;
     rdfs:label "FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften"^^xsd:string ;
-    rdfs:comment "![E106.png](../img/E106.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E106.png> ;
-    memo:intendedPurpose memo-resource:E200,
-        memo-resource:E201,
-        memo-resource:E204,
-        memo-resource:E207,
-        memo-resource:E208,
-        memo-resource:E209,
-        memo-resource:E210,
-        memo-resource:E211,
-        memo-resource:E212 ;
     memo:objectType memo-resource:E305,
         memo-resource:E306,
         memo-resource:E307 ;
@@ -214,20 +181,8 @@ memo-resource:E106 a nfdicore:Software ;
     nfdicore:url "https://fud.uni-trier.de"^^xsd:anyURI ;
     schema:name "FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften"^^xsd:string .
 
-memo-resource:E107 a <https://nfdi.fiz-karlsruhe.de/ontology/Consulting&Funding>,
-        <https://nfdi.fiz-karlsruhe.de/ontology/Information&Documentation>,
-        <https://nfdi.fiz-karlsruhe.de/ontology/Learning&Teaching>,
-        <https://nfdi.fiz-karlsruhe.de/ontology/Publication&Dissemination>,
-        <https://nfdi.fiz-karlsruhe.de/ontology/Storage&Preservation> ;
+memo-resource:E107 a nfdicore:Service ;
     rdfs:label "FuD. Virtuelle Forschungsumgebung für die Geistes- und Sozialwissenschaften"^^xsd:string ;
-    memo:intendedPurpose memo-resource:E200,
-        memo-resource:E201,
-        memo-resource:E207,
-        memo-resource:E208,
-        memo-resource:E212,
-        memo-resource:E213,
-        memo-resource:E214,
-        memo-resource:E215 ;
     nfdicore:contactPoint memo-resource:E603,
         memo-resource:E604,
         memo-resource:E605,
@@ -254,14 +209,6 @@ memo-resource:E108 a nfdicore:DataPortal,
         nfdicore:Service,
         nfdicore:Software ;
     rdfs:label "Oral-History.Digital. Interviewportal - Erschließungsplattform - Forschungsumgebung"^^xsd:string ;
-    rdfs:comment "![E108.png](../img/E108.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E108.png> ;
-    memo:intendedPurpose memo-resource:E201,
-        memo-resource:E205,
-        memo-resource:E212,
-        memo-resource:E216,
-        memo-resource:E217,
-        memo-resource:E218 ;
     memo:objectType memo-resource:E300,
         memo-resource:E305,
         memo-resource:E306,
@@ -293,9 +240,6 @@ memo-resource:E108 a nfdicore:DataPortal,
 
 memo-resource:E109 a nfdicore:Service ;
     rdfs:label "Leibniz-Rechenzentrum (LRZ) FAIR Data Portal"^^xsd:string ;
-    rdfs:comment "![E109.png](../img/E109.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E109.png> ;
-    memo:intendedPurpose memo-resource:E216 ;
     memo:objectType memo-resource:E310,
         memo-resource:E311 ;
     nfdicore:contactPoint memo-resource:E614,
@@ -316,10 +260,6 @@ memo-resource:E110 a nfdicore:Dataset,
         nfdicore:Service,
         nfdicore:Software ;
     rdfs:label "xTree Vokabularverwaltung für 200+ Vokabulare/Teilvokabulare"^^xsd:string ;
-    memo:intendedPurpose memo-resource:E200,
-        memo-resource:E201,
-        memo-resource:E212,
-        memo-resource:E215 ;
     memo:objectType memo-resource:E301 ;
     nfdicore:contactPoint memo-resource:E616,
         memo-resource:E617 ;
@@ -343,13 +283,6 @@ memo-resource:E110 a nfdicore:Dataset,
 
 memo-resource:E112 a nfdicore:DataPortal ;
     rdfs:label "Deutsche Historische Bibliografie (DHB)"^^xsd:string ;
-    rdfs:comment "![E112.png](../img/E112.png)" ;
-    schema:logo <https://nfdi.fiz-karlsruhe.de/4memory/img/E112.png> ;
-    memo:intendedPurpose memo-resource:E201,
-        memo-resource:E204,
-        memo-resource:E205,
-        memo-resource:E209,
-        memo-resource:E216 ;
     memo:objectType memo-resource:E305 ;
     nfdicore:contactPoint memo-resource:E618,
         memo-resource:E619,
@@ -435,7 +368,9 @@ memo-resource:E1 a nfdicore:Organization ;
     rdfs:label "National Research Data Infrastructure"^^xsd:string ;
     owl:sameAs "https://www.wikidata.org/wiki/Q61658497"^^xsd:anyURI ;
     nfdicore:subsidiaryOrganization memo-resource:E2 ;
-    nfdicore:url "https://www.nfdi.de/"^^xsd:anyURI .
+    nfdicore:url "https://www.nfdi.de/"^^xsd:anyURI ;
+    schema:member memo-resource:E77710,
+        memo-resource:E77711 .
 
 memo-resource:E1000 a nfdicore:Standard ;
     rdfs:label "Schema"^^xsd:string ;
@@ -614,46 +549,6 @@ memo-resource:E2029 a nfdicore:TechnologicalMeans,
         schema:DefinedTerm ;
     rdfs:label "RSS"^^xsd:string ;
     owl:sameAs "https://www.wikidata.org/wiki/Q45432"^^xsd:anyURI .
-
-memo-resource:E203 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "georeferencing"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q772007"^^xsd:anyURI .
-
-memo-resource:E206 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "text analysis"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q676880"^^xsd:anyURI .
-
-memo-resource:E210 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "processing"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q6661985"^^xsd:anyURI .
-
-memo-resource:E211 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "analysis"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q217602"^^xsd:anyURI .
-
-memo-resource:E213 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "teaching"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q352842"^^xsd:anyURI .
-
-memo-resource:E214 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "consulting"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q63769412"^^xsd:anyURI .
-
-memo-resource:E217 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "collaboration"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q1145523"^^xsd:anyURI .
-
-memo-resource:E218 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "crowdsourcing"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q275969"^^xsd:anyURI .
 
 memo-resource:E2221 a nfdicore:City ;
     rdfs:label "Dresden"^^xsd:string ;
@@ -1049,16 +944,6 @@ memo-resource:E2023 a nfdicore:TechnologicalMeans,
     rdfs:label "TypeScript"^^xsd:string ;
     owl:sameAs "https://www.wikidata.org/wiki/Q978185"^^xsd:anyURI .
 
-memo-resource:E209 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "collection"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q108634029"^^xsd:anyURI .
-
-memo-resource:E215 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "documentation"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q99194075"^^xsd:anyURI .
-
 memo-resource:E2229 a nfdicore:FederalState ;
     rdfs:label "Bayern"^^xsd:string ;
     owl:sameAs "https://www.wikidata.org/wiki/Q980"^^xsd:anyURI .
@@ -1287,21 +1172,6 @@ memo-resource:E2011 a nfdicore:ProgrammingLanguage,
     rdfs:label "Java "^^xsd:string ;
     owl:sameAs "https://www.wikidata.org/wiki/Q251049499"^^xsd:anyURI .
 
-memo-resource:E204 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "search"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q11540953"^^xsd:anyURI .
-
-memo-resource:E205 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "research"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q42240"^^xsd:anyURI .
-
-memo-resource:E216 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "indexing"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q11977025"^^xsd:anyURI .
-
 memo-resource:E3000 a skos:Concept,
         schema:DefinedTerm ;
     rdfs:label "research institute"^^xsd:string ;
@@ -1330,11 +1200,6 @@ memo-resource:E703 a nfdicore:Organization ;
         memo-resource:E605,
         memo-resource:E606 .
 
-memo-resource:E200 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "linking"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q744778"^^xsd:anyURI .
-
 memo-resource:E2006 a nfdicore:ProgrammingLanguage,
         schema:DefinedTerm ;
     rdfs:label "Python"^^xsd:string ;
@@ -1354,21 +1219,6 @@ memo-resource:E2020 a nfdicore:TechnologicalMeans,
         schema:DefinedTerm ;
     rdfs:label "Angular"^^xsd:string ;
     owl:sameAs "https://www.wikidata.org/wiki/Q28925578"^^xsd:anyURI .
-
-memo-resource:E207 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "storage"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q2534289"^^xsd:anyURI .
-
-memo-resource:E208 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "preservation"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q830393"^^xsd:anyURI .
-
-memo-resource:E212 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "publication"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q3972943"^^xsd:anyURI .
 
 memo-resource:E305 a memo:ObjectType,
         schema:DefinedTerm ;
@@ -1442,12 +1292,9 @@ memo-resource:E2 a nfdicore:Consortium ;
         memo-resource:E7774,
         memo-resource:E7775,
         memo-resource:E7776 ;
-    nfdicore:url "https://4memory.de/"^^xsd:anyURI .
-
-memo-resource:E201 a memo:IntendedPurpose,
-        schema:DefinedTerm ;
-    rdfs:label "description"^^xsd:string ;
-    owl:sameAs "https://www.wikidata.org/wiki/Q1200750"^^xsd:anyURI .
+    nfdicore:url "https://4memory.de/"^^xsd:anyURI ;
+    schema:member memo-resource:E77710,
+        memo-resource:E77711 .
 
 memo-resource:E2224 a nfdicore:Country ;
     rdfs:label "Deutschland"^^xsd:string ;
